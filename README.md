@@ -1,7 +1,7 @@
 # Propuesta SSOO
 
 Propuesta de organización de la materia Sistemas Operativos para
-la Facultad de Ciencias Exactas y Naturales en UBA.
+la Facultad de Ciencias Exactas y Naturales de Universidad de Buenos Aires.
 
 ## Objetivo de la materia
 
