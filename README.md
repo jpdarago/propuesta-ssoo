@@ -11,35 +11,42 @@ desarrollar _software_ de infraestructura a un bajo nivel.
 
 ## Temario
 
-* Introducción a UNIX
-    * Historia
-    * Filosofía:
-        * _Todo es un archivo_
-        * _Small programs joined by a common interface_
-    * Hardware actual a usar
+* Introducción
+  * Qué es un S.O.
+  * Historia
+  * UNIX
+    * Filosofía
+      * Todo es un archivo
+      * *Make each program do one thing well*
+      * Programas pequeños unidos por una interfaz común
+    * Hardware actual a usar (?)
     * GNU, Linux, POSIX
-    * Como usar un Shell
-    * Utilities básicas: cat, grep, man, ls, ...
+    * Uso de un shell
+    * Utilidades básicas: cat, grep, man, ls, ...
 * Modelo de proceso
-    * Ejecutables
-    * Procesos
-    * _fork_, _exec_, _wait_,
-    * Scheduling
-    * _Starvation_, _Priority Inversion_
-    * Señales
-    * Metodos de IPC
-        * Pipes
-        * Shared Memory
-        * Sockets
-    * APIs de inspección de procesos
-        * Como funciona strace
-        * Como funciona gdb
-* Implementando binarios
+  * Ejecutables
+  * Procesos
+  * fork (copy-on-write), exec, wait
+  * Scheduling
+    * Starvation
+    * Priority inversion
+  * Señales
+  * IPC
+    * Pipes
+    * Shared Memory
+    * Sockets
+  * APIs de inspección de procesos
+    * Cómo funciona strace
+    * Cómo funciona gdb
+* Manejo de memoria
+  * Virtual memory
+  * Algoritmos de reemplazo de páginas
+* Ejecutables en la práctica
     * El lenguaje C
+    * Pipeline de compilación.
     * Concepto de formato de binario: ELF, A.OUT
     * Concepto de linker, loader
-    * Pipeline de compilación.
-    * Linking Estatico vs Dinamico
+    * Linking estático vs dinámico
     * Modelo de memoria
         * Stack vs Heap vs Segmento de datos
         * API de SO para expansion de memoria
