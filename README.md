@@ -9,6 +9,11 @@ Entendiendo al sistema operativo como una API, ver las distintas
 posibilidades de uso del mismo y las intricancias necesarias para
 desarrollar _software_ de infraestructura a un bajo nivel.
 
+Acercar al alumno al sistema operativo desde la mirada del programador
+de aplicaciones de usuario, pero conociendo suficientemente su
+funcionamiento interno como para poder desarrollar software de
+infraestructura a un bajo nivel.
+
 ## Temario
 
 * Introducción
