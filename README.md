@@ -58,6 +58,7 @@ desarrollar _software_ de infraestructura a un bajo nivel.
     * API de Filesystem
     * Concepto de Inodos, tipos de archivos
     * Concepto de Virtual File System
+    * Control de versiones
     * Una aplicación: Filesystem en la RED
 * Drivers
     * Modelo de Driver en Linux
